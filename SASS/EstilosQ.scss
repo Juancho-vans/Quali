@@ -3,6 +3,66 @@ $quali-gris: #72706f;
 $quali-negro: #121312;
 $quali-amarillo-fondo: #E5AB0E;
 
+@font-face {
+    font-family: "TheklaExtended";
+    src: url("TheklaExtended.ttf");
+  }
+
 body {
     background-color: $quali-amarillo-fondo;  
+    margin: 0;
 } 
+
+
+/* *{
+    outline: 1px solid red;
+} */
+
+
+#header {
+    margin:auto;
+    background-color: $quali-negro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left; //con esto mostramos la lista en forma horizontal
+}
+
+.nav li a {
+    background-color:$quali-negro;
+    color:$quali-gris;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    font-size: 20px;
+}
+
+.nav li a:hover {
+    background-color:$quali-amarillo-fondo;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}

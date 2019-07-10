@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/EstilosQ.scss"],"names":[],"mappings":"AAKA;EACI,kBAHmB","file":"EstilosQ.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/EstilosQ.scss"],"names":[],"mappings":"AAKA;EACI;EACA;;AAGJ;EACI,kBARmB;EASnB;;;AAIJ;AAAA;AAAA;AAKA;EACI;EACA,kBArBU;EAsBV;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI,kBApCU;EAqCV,OAtCS;EAuCT;EACA;EACA;EACA;;;AAGJ;EACI,kBA5CmB;;;AA+CvB;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA","file":"EstilosQ.css"}

@@ -1,5 +1,61 @@
+@font-face {
+  font-family: "TheklaExtended";
+  src: url("TheklaExtended.ttf");
+}
 body {
   background-color: #E5AB0E;
+  margin: 0;
+}
+
+/* *{
+    outline: 1px solid red;
+} */
+#header {
+  margin: auto;
+  background-color: #121312;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+.nav > li {
+  float: left;
+}
+
+.nav li a {
+  background-color: #121312;
+  color: #72706f;
+  text-decoration: none;
+  padding: 10px 12px;
+  display: block;
+  font-size: 20px;
+}
+
+.nav li a:hover {
+  background-color: #E5AB0E;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+}
+
+.nav li:hover > ul {
+  display: block;
+}
+
+.nav li ul li {
+  position: relative;
+}
+
+.nav li ul li ul {
+  right: -140px;
+  top: 0px;
 }
 
 /*# sourceMappingURL=EstilosQ.css.map */
